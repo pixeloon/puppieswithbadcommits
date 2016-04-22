@@ -3,7 +3,7 @@
 module.exports = {
 
   development: {
-    client: 'postgresql',
+    client: 'pg',
     connection: {
       database: 'puppyapp'
     },
@@ -15,7 +15,7 @@ module.exports = {
   },
 
   test: {
-    client: 'postgresql',
+    client: 'pg',
     connection: {
       database: 'puppyapp_test'
     },
@@ -27,7 +27,7 @@ module.exports = {
   },
 
   production: {
-    client: 'postgresql',
+    client: 'pg',
     connection: {
       database: 'my_db',
       user:     'username',
